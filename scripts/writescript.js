@@ -2,7 +2,7 @@ var textarea = document.getElementById("txt");
 textarea.addEventListener('input', writeLocalStorage);
 
 function writeLocalStorage() {
-    if (typeof(Storage) !== "undefined") {
+    if (typeof (Storage) !== "undefined") {
         localStorage.setItem("text", textarea.value);
     } else {
         document.getElementById("err").innerHTML = "Localstorage not supported";
@@ -10,7 +10,7 @@ function writeLocalStorage() {
 }
 
 function readLocalStorage() {
-    if (typeof(Storage) !== "undefined") {
+    if (typeof (Storage) !== "undefined") {
         textarea.value = localStorage.getItem("text");
     } else {
         document.getElementById("err").innerHTML = "Localstorage not supported";

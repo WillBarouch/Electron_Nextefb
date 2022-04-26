@@ -23,7 +23,7 @@ map.on("load", () => {
                         ],
                         tileSize: 256
                     },
-                    layout: { visibility: "none" },
+                    layout: {visibility: "none"},
                     minzoom: 0,
                     maxzoom: 12
                 });
