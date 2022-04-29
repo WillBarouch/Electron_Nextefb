@@ -15,14 +15,26 @@
     --nord13: #ebcb8b;
     --nord14: #a3be8c;
     --nord15: #b48ead;
+
+    --background: var(--nord0);
 }
 
 body {
-    background-color:var(--nord0);
+    background-color:var(--background);
     margin: 0;
     padding: 0;
     height: 100%;
     overflow: hidden;
+}
+
+.toggle-cont {
+    position: fixed;
+    width: 1vw;
+    height: 1vw;
+    bottom: 97vh;
+    border-radius: 1vw;
+    margin-left: 49.5vw;
+    background-color: var(--nord4);
 }
 
 form {
