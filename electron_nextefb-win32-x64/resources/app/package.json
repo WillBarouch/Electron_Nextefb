@@ -1,0 +1,15 @@
+{
+  "name": "electron_nextefb",
+  "version": "0.1.0",
+  "description": "nextefb",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "author": "William Barouch",
+  "license": "MIT",
+  "devDependencies": {
+    "electron": "^18.1.0",
+    "electron-packager": "^15.5.1"
+  }
+}

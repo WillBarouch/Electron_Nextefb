@@ -1,0 +1,14 @@
+{
+  "name": "nextefb",
+  "version": "0.1.0",
+  "description": ".",
+  "main": "index.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "author": "William Barouch",
+  "license": "GPL-3.0",
+  "devDependencies": {
+    "electron": "^18.1.0"
+  }
+}

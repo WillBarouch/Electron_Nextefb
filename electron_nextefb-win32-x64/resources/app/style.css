@@ -1,0 +1,109 @@
+:root {
+    --nord0: #2e3440;
+    --nord1: #3b4252;
+    --nord2: #434c5e;
+    --nord3: #4c566a;
+    --nord4: #d8dee9;
+    --nord5: #e5e9f0;
+    --nord6: #eceff4;
+    --nord7: #8fbcbb;
+    --nord8: #88c0d0;
+    --nord9: #81a1c1;
+    --nord10: #5e81ac;
+    --nord11: #bf616a;
+    --nord12: #d08770;
+    --nord13: #ebcb8b;
+    --nord14: #a3be8c;
+    --nord15: #b48ead;
+}
+
+body {
+    background-color:var(--nord0);
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    overflow: hidden;
+}
+
+form {
+    color: white;
+}
+
+.container2 {
+    display: grid;
+    grid-column-gap: 15vw;
+    grid-row-gap: 15vh;
+    grid-template-columns: auto auto auto;
+    margin-top: 10vh;
+    justify-content: center;
+}
+
+.icon {
+
+    border-radius: 50px;
+    width: 250px;
+
+}
+
+
+iframe {
+    margin-left: 10%;
+    height: 90vh;
+    border-radius: 50px;
+    width: 80%;
+    justify-self: center;
+}
+
+.home_button {
+    width: 50%;
+    margin-left: 25%;
+    margin-top: 2.5vh;
+    border-radius: 20px;
+    border-color: var(--nord4);
+    height:10px;
+}
+
+#map {
+    width: 80%;
+    margin-left: 10%;
+    height: 90vh;
+    border-radius:5%;
+    margin-top: 5vh;
+}
+
+
+
+h1 {
+    background: #7F7FD5;
+    background: -webkit-linear-gradient(to right, #91EAE4, #86A8E7, #7F7FD5);
+    background: linear-gradient(to right, #91EAE4, #86A8E7, #7F7FD5);
+    /*noinspection CssInvalidPropertyValue*/
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+body {
+    font-family: Ubuntu, sans-serif;
+}
+
+#TotalNotes {
+    color: white;
+    position: relative;
+    top: 10px;
+
+}
+
+#OnlineNotes:hover {
+    color: #ecebeb;
+    cursor: pointer;
+}
+
+textarea {
+    width: 100%;
+    padding: 12px 20px;
+    height: 90vh;
+    box-sizing: border-box;
+    border-radius: 30px;
+    font-family: 'Poppins', sans-serif;
+}
